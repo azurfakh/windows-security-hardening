@@ -1,0 +1,9 @@
+ 
+Name            Enabled Direction Protocol LocalPort RemotePort Action Profile
+----            ------- --------- -------- --------- ---------- ------ -------
+Block_http_conn    True   Inbound TCP      80        Any         Block Any
+Allow_rdp_conn     True   Inbound TCP      3389      Any         Allow Any
+Block_ftp_conn     True  Outbound TCP      Any       21          Block Any
+Block_ping_conn    True   Inbound ICMPv4   RPC       Any         Block Any
+
+
